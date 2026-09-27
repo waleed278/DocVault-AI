@@ -24,3 +24,22 @@ class DocumentNotFoundError(Exception):
 
 class DocumentAccessDeniedError(Exception):
     pass
+
+class DocumentExtractionError(Exception):
+    pass
+
+
+class NoExtractableTextError(Exception):
+    pass
+
+
+class InvalidDocumentStateError(Exception):
+    pass
+
+
+class AIServiceError(Exception):
+    pass
+
+
+class AIInvalidResponseError(Exception):
+    pass
